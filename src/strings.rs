@@ -23,5 +23,7 @@ pub fn run(){
     strs.push('a');
     strs.push('b');
 
+    assert_eq!(2, strs.len());
+
     println!("{}", strs);
 }
