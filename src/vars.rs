@@ -1,4 +1,8 @@
 pub fn run(){
     let name = "x";
-    println!("{}", name)
+    let mut age = 34;
+
+    age = 35;
+
+    println!("{} is {}", name, age);
 }
