@@ -8,4 +8,8 @@ pub fn run(){
 
     const ID: i32 = 001;
     println!("ID: {}", ID);
+
+    let (name, age) = ("y", 34);
+    println!("{} is {}", name, age);
+
 }
