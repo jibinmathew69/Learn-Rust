@@ -15,5 +15,7 @@ pub fn run(){
 
     println!("{}", hello.is_empty());
 
-    println!("{}", hello.contains("ell"))
+    println!("{}", hello.contains("ell"));
+     
+    println!("{}", hello.replace("el", "ol"))
 }
