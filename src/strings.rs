@@ -11,4 +11,5 @@ pub fn run(){
     hello.push_str("oo");
     println!("{}", hello);
 
+    println!("{}", hello.capacity());
 }
