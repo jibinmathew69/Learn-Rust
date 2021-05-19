@@ -17,5 +17,11 @@ pub fn run(){
 
     println!("{}", hello.contains("ell"));
      
-    println!("{}", hello.replace("el", "ol"))
+    println!("{}", hello.replace("el", "ol"));
+
+    let mut strs = String::with_capacity(10);
+    strs.push('a');
+    strs.push('b');
+
+    println!("{}", strs);
 }
