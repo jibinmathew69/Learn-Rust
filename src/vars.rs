@@ -5,4 +5,7 @@ pub fn run(){
     age = 35;
 
     println!("{} is {}", name, age);
+
+    const ID: i32 = 001;
+    println!("ID: {}", ID);
 }
