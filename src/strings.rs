@@ -12,4 +12,6 @@ pub fn run(){
     println!("{}", hello);
 
     println!("{}", hello.capacity());
+
+    println!("{}", hello.is_empty());
 }
