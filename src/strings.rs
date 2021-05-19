@@ -14,4 +14,6 @@ pub fn run(){
     println!("{}", hello.capacity());
 
     println!("{}", hello.is_empty());
+
+    println!("{}", hello.contains("ell"))
 }
