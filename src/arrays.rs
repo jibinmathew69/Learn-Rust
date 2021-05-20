@@ -8,4 +8,6 @@ pub fn run(){
 
     println!("{:?}", numbers);
     println!("{}", numbers.len());
+
+    println!("{}", std::mem::size_of_val(&numbers))
 }
