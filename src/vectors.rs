@@ -15,4 +15,8 @@ pub fn run(){
 
     let slice: &[i32] = &numbers[1..3];
     println!("{:?}", slice);
+
+    numbers.push(5);
+    println!("{:?}", numbers);
+
 }
