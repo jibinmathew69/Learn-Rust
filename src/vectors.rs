@@ -19,4 +19,7 @@ pub fn run(){
     numbers.push(5);
     println!("{:?}", numbers);
 
+    numbers.pop();
+    println!("{:?}", numbers);
+
 }
