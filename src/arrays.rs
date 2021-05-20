@@ -11,5 +11,8 @@ pub fn run(){
     println!("{:?}", numbers);
     println!("{}", numbers.len());
 
-    println!("{}", mem::size_of_val(&numbers))
+    println!("{}", mem::size_of_val(&numbers));
+
+    let slice: &[i32] = &numbers[1..3];
+    println!("{:?}", slice);
 }
