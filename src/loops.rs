@@ -16,4 +16,8 @@ pub fn run() {
         }
         count += 1;
     }
+
+    for x in 0..10{
+        println!("{}", x);
+    }
 }
