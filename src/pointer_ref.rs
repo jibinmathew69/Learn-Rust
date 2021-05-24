@@ -4,9 +4,9 @@ pub fn run(){
 
     println!("{:?}", (arr1, arr2));
 
-    let vec1 = [1,2,3];
-    let vec2 = vec1;
+    let vec1 = vec![1,2,3];
+    let vec2 = &vec1;
 
-    println!("{:?}", (vec1, vec2));
+    println!("{:?}", (&vec1, vec2));
 
 }
